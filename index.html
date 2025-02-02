@@ -4,49 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/modern-normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
-    <section class="sidebar">
-        <img src="" alt="">
-        <figure>Dashboard</figure>
-        <nav class="dashboard">
-            <ul class="nav-section">
-                <li><img src="" alt="">Home</li>
-                <li><img src="" alt="">Profile</li>
-                <li><img src="" alt="">Messages</li>
-                <li><img src="" alt="">History</li>
-                <li><img src="" alt="">Tasks</li>
-                <li><img src="" alt="">Communities</li>
-            </ul>
-            <ul class="settings">
-                <li><img src="" alt="">Settings</li>
-                <li><img src="" alt="">Support</li>
-                <li><img src="" alt="">Privacy</li>
-            </ul>
-        </nav>
-    </section>
+    <nav class="sidebar">
+        <div class="logo">
+            <img src="vectors/window-closed-variant.svg" alt="logo">
+            <figure>Dashboard</figure>
+        </div>
+        <ul class="nav-section">
+            <li><img src="vectors/home-account.svg" alt="home logo">Home</li>
+            <li><img src="vectors/laptop.svg" alt="profile-logo">Profile</li>
+            <li><img src="vectors/message.svg" alt="messages-logo">Messages</li>
+            <li><img src="vectors/clock-outline.svg" alt="history-logo">History</li>
+            <li><img src="vectors/notebook.svg" alt="task-logo">Tasks</li>
+            <li><img src="vectors/account-group.svg" alt="communities-logo">Communities</li>
+        </ul>
+        <ul class="settings">
+            <li><img src="vectors/cog.svg" alt="settings-logo">Settings</li>
+            <li><img src="vectors/cloud-question.svg" alt="support-logo">Support</li>
+            <li><img src="vectors/shield-account.svg" alt="privacy-logo">Privacy</li>
+        </ul>
+    </nav>
 
     <header class="header">
         <div class="header-top">
             <div class="search-bar">
-                <img src="" alt="">
+                <img src="vectors/magnify.svg" alt="search">
                 <input type="text">
             </div>
 
             <div class="alerts">
-                <img src="" alt="">
-                <img src="" alt="">
+                <img src="vectors/bell-alert.svg" alt="alerts">
+                <img src="vectors/avatar-(ProfilePictureMaker.com).png" alt="profile-pic">
                 <p>Morgan Oakley</p>
             </div>
         </div>
 
         <div class="header-bottom">
+            <img src="vectors/avatar-(ProfilePictureMaker.com).png" alt="profile-pic">
             <div class="profile-greeting">
-                <img src="" alt="">
-                <p>Hi there,</p>
-                <p>Morgan Oakley (@morgan)</p>
+                <div class="greet">
+                    <p class="greet">Hi there,</p> 
+                    <p class="name">Morgan Oakley (@morgan)<p>
+                </div>
             </div>
 
             <div class="upload-share">
@@ -58,108 +61,128 @@
     </header>
 
     <main>
-        <section class="section-projects">
-            <h2>Your Projects</h2>
+        <section class="contents">
+            <h2 class="project-announcer">Your Projects</h2>
             <article class="project">
-                <p>Super Cool Project</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptate.</p>
-                <div class="project-options">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                <div class="project-content">
+                    <p class="title">Super Cool Project</p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptate.</p>
+                    <div class="project-options">
+                        <img src="vectors/star-check-outline.svg" alt="favorite">
+                        <img src="vectors/eye-check.svg" alt="eye">
+                        <img src="vectors/transit-connection.svg" alt="share">
+                    </div>
                 </div>
             </article>
             <article class="project">
-                <p>Less Cool Project</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, ex!</p>
-                <div class="project-options">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                <div class="project-content">
+                    <p class="title">Super Cool Project</p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptate.</p>
+                    <div class="project-options">
+                        <img src="vectors/star-check-outline.svg" alt="favorite">
+                        <img src="vectors/eye-check.svg" alt="eye">
+                        <img src="vectors/transit-connection.svg" alt="share">
+                    </div>
                 </div>
             </article>
             <article class="project">
-                <p>Impossible App</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, obcaecati?</p>
-                <div class="project-options">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                <div class="project-content">
+                    <p class="title">Super Cool Project</p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptate.</p>
+                    <div class="project-options">
+                        <img src="vectors/star-check-outline.svg" alt="favorite">
+                        <img src="vectors/eye-check.svg" alt="eye">
+                        <img src="vectors/transit-connection.svg" alt="share">
+                    </div>
                 </div>
             </article>
             <article class="project">
-                <p>Easy Peasy App</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, inventore!</p>
-                <div class="project-options">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                <div class="project-content">
+                    <p class="title">Super Cool Project</p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptate.</p>
+                    <div class="project-options">
+                        <img src="vectors/star-check-outline.svg" alt="favorite">
+                        <img src="vectors/eye-check.svg" alt="eye">
+                        <img src="vectors/transit-connection.svg" alt="share">
+                    </div>
                 </div>
             </article>
             <article class="project">
-                <p>Ad Blocker</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, quasi.</p>
-                <div class="project-options">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                <div class="project-content">
+                    <p class="title">Super Cool Project</p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptate.</p>
+                    <div class="project-options">
+                        <img src="vectors/star-check-outline.svg" alt="favorite">
+                        <img src="vectors/eye-check.svg" alt="eye">
+                        <img src="vectors/transit-connection.svg" alt="share">
+                    </div>
                 </div>
             </article>
             <article class="project">
-                <p>Money Maker</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, fugiat.</p>
-                <div class="project-options">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                <div class="project-content">
+                    <p class="title">Super Cool Project</p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptate.</p>
+                    <div class="project-options">
+                        <img src="vectors/star-check-outline.svg" alt="favorite">
+                        <img src="vectors/eye-check.svg" alt="eye">
+                        <img src="vectors/transit-connection.svg" alt="share">
+                    </div>
                 </div>
             </article>
         </section>
 
         <section class="announcements-trendings">
+            <h2 class="h2announce">Announcements</h2>
             <section class="announcements">
-                <h2>Announcements</h2>
-                <article>
-                    <p>Site Maintenance</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, voluptate?</p>
+                <article class="item">
+                    <p class="title">Site Maintenance</p>
+                    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quod dolorem maiores earum asperiores veritatis laboriosam ex fugiat est dignissimos.</p>
                 </article>
-                <article>
-                    <p>Community Share Day</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, velit!</p>
+                <article class="item">
+                    <p class="title">Community Share Day</p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo soluta natus qui consequatur aspernatur voluptatum. Commodi optio consectetur amet autem!</p>
                 </article>
-                <article>
-                    <p>Updated Privacy Policy</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, distinctio.</p>
+                <article class="item">
+                    <p class="title">Updated Privacy Policy</p>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil harum porro dolorem quo fuga accusamus voluptate voluptatibus. Tempora, aliquid tenetur?</p>
                 </article>
             </section>
 
-            <section>
-                <h2>Trending</h2>
+            <h2>Trending</h2>
+            <section class="trending">
                 <ul>
                     <li>
-                        <img src="" alt="">
-                        <p>@tegan</p>
-                        <p>World Peace Building</p>
+                        <img src="vectors/avatar-(ProfilePictureMaker.com) (1).png" alt="profile-pic">
+                        <div class="name-info">
+                            <p class="at-name">@tegan</p>
+                            <p>World Peace Building</p>
+                        </div>
                     </li>
                     <li>
-                        <img src="" alt="">
-                        <p>@morgan</p>
-                        <p>Super Cool Project</p>
+                        <img src="vectors/avatar-(ProfilePictureMaker.com).png" alt="profile-pic">
+                        <div class="name-info">
+                            <p class="at-name">@morgan</p>
+                            <p>Super Cool Project</p>
+                        </div>
                     </li>
                     <li>
-                        <img src="" alt="">
-                        <p>@kendall</p>
-                        <p>Life Changing App</p>
+                        <img src="vectors/avatar-(ProfilePictureMaker.com) (2).png" alt="profile-pic">
+                        <div class="name-info">
+                            <p class="at-name">@kendall</p>
+                            <p>Life Changing App</p>
+                        </div>
                     </li>
                     <li>
-                        <img src="" alt="">
-                        <p>@alex</p>
-                        <p>No Traffic Maker</p>
+                        <img src="vectors/avatar-(ProfilePictureMaker.com) (3).png" alt="profile-pic">
+                        <div class="name-info">
+                            <p class="at-name">@alex</p>
+                            <p>No Traffic Maker</p>
+                        </div>
                     </li>
                 </ul>
             </section>
         </section>
-    </main>
+    </main>`
     
 </body>
 </html>
